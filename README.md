@@ -88,8 +88,10 @@ date	      demandPrediction
 It have 180 rows × 1 columns
 
 ---------
+## **Graph Analysis**
 
 It is not seasonal from the below graph
+
 ![image](https://github.com/Bamit-2021/Forecasting-Demand-for-Optimized-Inventory-Planning/assets/77608956/85e3cbd8-625d-4b61-9d4a-9aded79cfe8e)
 
 It is stationary from below graph so we do not need differencing.
