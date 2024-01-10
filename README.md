@@ -128,4 +128,4 @@ From the above graph we can analyse that daywise prediction of demands are getti
 
 # **More Information**
 
-Please visit python script Inventory_Planning.ipynb
+Please visit python script [Inventory_Planning.ipynb](https://github.com/Bamit-2021/Forecasting-Demand-for-Optimized-Inventory-Planning/blob/main/Inventory_Planning.ipynb)
