@@ -9,7 +9,7 @@ The solutions submitted will be assessed and compared on the basis of their mone
 for the retailer. The monetary value is determined by the predicted revenue and an 
 overstocking fee for overestimating the demand for any products. The demand prediction 
 for every product is therefore compared with the actual number of orders within the same 
-time frame.
+time frames.
 
 ------------
 
