@@ -3,13 +3,13 @@
 
 ## **Business Case-Study**
 
-Historical data must be used to create a machine learning model to reliably forecast the demand for a period of 14 days. Use the period starting on 30 June 2018 00:00:00, the day after the last date from the transaction files. 
+Historical data must be used to create a machine learning model to reliably forecast the demand for 14 days. Use the period starting on 30 June 2018 00:00:00, the day after the last date from the transaction files. 
 
-The solutions submitted will be assessed and compared on the basis of their monetary value 
+The solutions submitted will be assessed and compared based on their monetary value 
 for the retailer. The monetary value is determined by the predicted revenue and an 
-overstocking fee for overestimating the demand for any products. The demand prediction 
+overstocking fee for overestimating the demand for any product. The demand prediction 
 for every product is therefore compared with the actual number of orders within the same 
-time frames.
+time frame.
 
 ------------
 
@@ -25,7 +25,7 @@ time frames.
   
   d) order
   
-  e) salesPrice
+  e) sales price
 
 
 2) **Items Dataset**: It have 8 features:
@@ -36,7 +36,7 @@ time frames.
   
   c) manufacturer	
   
-  d) customerRating	
+  d) customer rating	
   
   e) category1	
   
@@ -44,7 +44,7 @@ time frames.
   
   g) category3	
   
-  h) recommendedRetailPrice
+  h) recommended retail price
 
 
 3) **Infos Dataset**: It have 3 features:
@@ -62,16 +62,16 @@ time frames.
   
   b) price	
   
-  c) demandPrediction	
+  c) demand prediction	
   
   d) revenue
   
 -----------
-For Time series Forecasting (TSF) we need time and demandPreiction features only
+For Time series Forecasting (TSF) we need time and demand prediction features only
 <br/>
 
 <pre>	
-date	      demandPrediction
+date	      demand prediction
 2018-01-01	450931
 2018-01-02	117876
 2018-01-03	37034
@@ -85,7 +85,7 @@ date	      demandPrediction
 2018-06-29	1182259
 </pre>
 
-It have 180 rows × 1 columns
+It has 180 rows × 1 column
 
 ---------
 ## **Graph Analysis**
@@ -94,7 +94,7 @@ It is not seasonal from the below graph
 
 ![image](https://github.com/Bamit-2021/Forecasting-Demand-for-Optimized-Inventory-Planning/assets/77608956/85e3cbd8-625d-4b61-9d4a-9aded79cfe8e)
 
-It is stationary from below graph so we do not need differencing.
+It is stationary from the below graph so we do not need differencing.
 
 ![image](https://github.com/Bamit-2021/Forecasting-Demand-for-Optimized-Inventory-Planning/assets/77608956/4f8222f4-d853-484c-97e5-74d0a8cba757)
 
@@ -107,7 +107,7 @@ It is stationary from below graph so we do not need differencing.
 
 ### **Next 14 Days Prediction of Demands:**
 
-From the above graph we can analyse that daywise prediction of demands are getting good results from 30-06-2018 to 13-07-2018.
+From the above graph, we can see that the daywise prediction of demands is getting good results from 30-06-2018 to 13-07-2018.
 
 ```
 2018-06-30	1.129260e+06
@@ -128,6 +128,6 @@ From the above graph we can analyse that daywise prediction of demands are getti
 
 -------------------
 
-# **More Information**
+For More Information Please review the full analysis in the [final notebook](https://github.com/Bamit-2021/Forecasting-Demand-for-Optimized-Inventory-Planning/blob/main/Inventory_Planning.ipynb)
 
-Please visit python script [Inventory_Planning.ipynb](https://github.com/Bamit-2021/Forecasting-Demand-for-Optimized-Inventory-Planning/blob/main/Inventory_Planning.ipynb)
+For any additional questions, feel free to email me at patroamit358@gmail.com
